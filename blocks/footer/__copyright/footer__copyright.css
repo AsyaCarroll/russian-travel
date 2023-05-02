@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/Inter/Inter-Medium.otf);
+}
+
+.footer__copyright {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #fff;
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .footer__copyright {
+        line-height: 14px;
+        text-align: left;
+        padding-top: 48px;
+    }
+}

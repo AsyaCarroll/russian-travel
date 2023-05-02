@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/Inter/Inter-Medium.otf);
+}
+
+.place__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #fff;
+    object-fit: contain;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/Inter/Inter-Medium.otf);
+}
+
+.cover__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    max-width: 360px;
+    margin: 32px 0 0 0;
+}
+
+@media screen and (max-width: 750px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 265px;
+        margin-top: 16px;
+    }
+}

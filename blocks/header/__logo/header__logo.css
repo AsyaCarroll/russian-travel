@@ -1,0 +1,10 @@
+.header__logo {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

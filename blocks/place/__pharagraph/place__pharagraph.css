@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/Inter/Inter-Medium.otf);
+}
+
+.place__pharagraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #fff;
+    margin: 0;
+    order: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .place__pharagraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place__pharagraph {
+        padding: 32px 16px 0 16px;
+    }
+}
