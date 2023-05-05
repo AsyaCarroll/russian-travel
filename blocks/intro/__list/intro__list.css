@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'Inter';
-    src: url(../../../fonts/Inter/Inter-Medium.otf);
-}
-
 .intro__list {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #fff;
